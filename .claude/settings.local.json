@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m venv \"/Users/alexandre/Documents/Coding/Claude/First Agentic Workflow/.venv\")",
+      "Bash(\"/Users/alexandre/Documents/Coding/Claude/First Agentic Workflow/.venv/bin/python\" --version)",
+      "Bash(.venv/bin/python -c \":*)",
+      "Bash(python -c \":*)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(python tools/process_articles.py)"
+    ]
+  }
+}
